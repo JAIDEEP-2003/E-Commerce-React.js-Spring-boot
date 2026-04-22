@@ -1,0 +1,121 @@
+/* Full page background */
+.signup-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #4facfe,
+    #00f2fe
+  );
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Form box */
+.signup-form {
+
+  background: white;
+
+  padding: 40px;
+  border-radius: 12px;
+
+  width: 350px;
+
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.15);
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+/* Heading */
+.signup-form h1 {
+
+  text-align: center;
+
+  margin-bottom: 10px;
+
+  color: #333;
+}
+
+/* Inputs */
+.signup-form input {
+
+  padding: 12px;
+
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+
+  font-size: 16px;
+
+  transition: 0.3s;
+}
+
+/* Input focus */
+.signup-form input:focus {
+
+  border-color: #4facfe;
+
+  outline: none;
+
+  box-shadow:
+    0 0 5px rgba(79,172,254,0.5);
+}
+
+/* Button */
+.signup-form button {
+
+  padding: 12px;
+
+  background: #4facfe;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* Button hover */
+.signup-form button:hover {
+
+  background: #2f8dfc;
+}
+
+/* Login text */
+.signup-form p {
+
+  text-align: center;
+
+  font-size: 14px;
+}
+
+/* Link */
+.signup-form a {
+
+  color: #4facfe;
+
+  font-weight: bold;
+
+  margin-left: 5px;
+
+  text-decoration: none;
+}
+
+/* Link hover */
+.signup-form a:hover {
+
+  text-decoration: underline;
+}
